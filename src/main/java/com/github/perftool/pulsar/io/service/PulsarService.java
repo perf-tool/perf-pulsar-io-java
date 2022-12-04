@@ -23,6 +23,7 @@ import com.github.perftool.pulsar.io.config.PulsarConfig;
 import com.github.perftool.pulsar.io.config.PulsarConsumeConfig;
 import com.github.perftool.pulsar.io.config.PulsarProduceConfig;
 import com.google.common.util.concurrent.RateLimiter;
+import jakarta.annotation.PostConstruct;
 import lombok.extern.log4j.Log4j2;
 import org.apache.pulsar.client.api.ClientBuilder;
 import org.apache.pulsar.client.api.Consumer;
@@ -31,8 +32,6 @@ import org.apache.pulsar.client.api.Producer;
 import org.apache.pulsar.client.api.PulsarClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import javax.annotation.PostConstruct;
 
 @Log4j2
 @Service

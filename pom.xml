@@ -37,7 +37,7 @@
         <apollo.version>2.1.0</apollo.version>
         <pulsar.verion>2.11.1</pulsar.verion>
         <!-- plugin -->
-        <checkstyle-plugin.version>3.2.1</checkstyle-plugin.version>
+        <checkstyle-plugin.version>3.3.0</checkstyle-plugin.version>
         <compiler-plugin.version>3.11.0</compiler-plugin.version>
         <puppycrawl.version>10.7.0</puppycrawl.version>
         <spotbugs-maven-plugin.version>4.7.3.4</spotbugs-maven-plugin.version>
